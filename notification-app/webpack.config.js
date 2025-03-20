@@ -37,7 +37,7 @@ module.exports = {
         './NotificationCenter': './src/NotificationCenter.jsx',
       },
       remotes: {
-        userProfile: 'userProfile@/profile/remoteEntry.js',
+        userProfile: 'userProfile@https://blue-sand-08c64b30f.6.azurestaticapps.net/remoteEntry.js',
       },
       shared: {
         react: { singleton: true, requiredVersion: false },
