@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "route": "/notifications/*",
+      "serve": "/public/index.html",
+      "statusCode": 200
+    }
+  ],
+  "navigationFallback": {
+    "rewrite": "/notifications/public/index.html"
+  }
+} 
