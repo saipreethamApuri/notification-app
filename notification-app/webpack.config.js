@@ -37,7 +37,7 @@ module.exports = {
         './NotificationCenter': './src/NotificationCenter.jsx',
       },
       remotes: {
-        userProfile: 'userProfile@/notifications/remoteEntry.js',
+        userProfile: 'userProfile@/profile/remoteEntry.js',
       },
       shared: {
         react: { singleton: true, requiredVersion: false },
