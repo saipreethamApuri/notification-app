@@ -60,7 +60,7 @@ jobs:
           api_location: "" # Api source code path - optional
           output_location: "dist" # Built app content directory - optional
           github_id_token: ${{ steps.idtoken.outputs.result }}
-          routes_location: "notification-app/routes.json" # Location of the routing configuration
+          routes_location: "notification-app" # Location of the routing configuration
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
