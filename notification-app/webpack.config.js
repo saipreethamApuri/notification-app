@@ -4,9 +4,6 @@ const ModuleFederationPlugin = require('webpack/lib/container/ModuleFederationPl
 module.exports = {
   entry: './src/index.js',
   mode: 'development',
-  output: {
-    publicPath: '/notifications/',
-  },
   devServer: {
     port: 3003,
     historyApiFallback: true,
